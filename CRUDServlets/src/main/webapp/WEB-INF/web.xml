@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>CRUDServlets</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+<servlet>
+
+<servlet-name>HomeController</servlet-name>
+
+<servlet-class>HomeController</servlet-class>
+
+</servlet>
+
+
+<servlet-mapping>
+
+<servlet-name>HomeController</servlet-name>
+
+<url-pattern>/HomeController</url-pattern>
+
+</servlet-mapping>
+
+
+<servlet>
+
+<servlet-name>InsertController</servlet-name>
+
+<servlet-class>InsertController</servlet-class>
+
+</servlet>
+<servlet-mapping>
+
+<servlet-name>InsertController</servlet-name>
+
+<url-pattern>/InsertController</url-pattern>
+
+</servlet-mapping>
+
+
+<servlet>
+
+<servlet-name>DeleteController</servlet-name>
+
+<servlet-class>DeleteController</servlet-class>
+
+</servlet>
+
+
+<servlet-mapping>
+
+<servlet-name>DeleteController</servlet-name>
+
+<url-pattern>/DeleteController</url-pattern>
+
+</servlet-mapping>
+
+
+<servlet>
+
+<servlet-name>UpdateController</servlet-name>
+
+<servlet-class>UpdateController</servlet-class>
+
+</servlet>
+
+
+<servlet-mapping>
+
+<servlet-name>UpdateController</servlet-name>
+
+<url-pattern>/UpdateController</url-pattern>
+
+</servlet-mapping>
+</web-app>
